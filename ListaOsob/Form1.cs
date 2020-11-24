@@ -82,8 +82,6 @@ namespace ListaOsob
                                     break;
                             }
             }
-            
-            //var results = records.Where(x => x.Imie.StartsWith(search)).ToList();
             FillInListView(results);
         }
 
@@ -143,12 +141,6 @@ namespace ListaOsob
             var removeRecord = records.FirstOrDefault(x => x.Imie == personToRemove.Imie && x.Nazwisko == personToRemove.Nazwisko && x.Wiek == personToRemove.Wiek);
             if (removeRecord != null)
                 records.Remove(removeRecord);
-            //var item = records.Find(x => x. == );
-            //for (int i = 0; i == records.Count(); i++ )
-            //{
-            //    if ()
-            //}
-            //records.RemoveAt(ID);
             SaveFile();
             FillInListView(records);
         }
