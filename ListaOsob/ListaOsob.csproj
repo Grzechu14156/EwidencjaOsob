@@ -58,7 +58,9 @@
     <Compile Include="AddPersonWindow.Designer.cs">
       <DependentUpon>AddPersonWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="FileDefinition.cs" />
+    <Compile Include="Domain\IDomainItem.cs" />
+    <Compile Include="Domain\Osoba.cs" />
+    <Compile Include="FileDataSource.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

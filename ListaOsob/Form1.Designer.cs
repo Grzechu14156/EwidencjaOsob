@@ -48,9 +48,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(164, 9);
+            this.label1.Location = new System.Drawing.Point(246, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(496, 73);
+            this.label1.Size = new System.Drawing.Size(735, 108);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ewidencja Osób";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -65,25 +66,27 @@
             "Wiek",
             "Miejsce zamieszkania",
             "Status"});
-            this.comboBox1.Location = new System.Drawing.Point(197, 102);
+            this.comboBox1.Location = new System.Drawing.Point(296, 157);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(180, 28);
             this.comboBox1.TabIndex = 1;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(325, 102);
+            this.textBox1.Location = new System.Drawing.Point(488, 157);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(192, 20);
+            this.textBox1.Size = new System.Drawing.Size(286, 26);
             this.textBox1.TabIndex = 2;
             this.textBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Clear);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(524, 99);
+            this.button1.Location = new System.Drawing.Point(786, 152);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(112, 35);
             this.button1.TabIndex = 3;
             this.button1.Text = "Szukaj";
             this.button1.UseVisualStyleBackColor = true;
@@ -100,9 +103,10 @@
             this.Status});
             this.listView.FullRowSelect = true;
             this.listView.HideSelection = false;
-            this.listView.Location = new System.Drawing.Point(177, 144);
+            this.listView.Location = new System.Drawing.Point(266, 222);
+            this.listView.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listView.Name = "listView";
-            this.listView.Size = new System.Drawing.Size(483, 261);
+            this.listView.Size = new System.Drawing.Size(722, 399);
             this.listView.TabIndex = 4;
             this.listView.UseCompatibleStateImageBehavior = false;
             this.listView.View = System.Windows.Forms.View.Details;
@@ -134,9 +138,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(258, 456);
+            this.button2.Location = new System.Drawing.Point(387, 702);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(106, 35);
+            this.button2.Size = new System.Drawing.Size(159, 54);
             this.button2.TabIndex = 5;
             this.button2.Text = "Dodaj Osobę";
             this.toolTip1.SetToolTip(this.button2, "Wyświetla okno dodawania nowej osoby do rejestru.");
@@ -145,9 +150,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(465, 456);
+            this.button3.Location = new System.Drawing.Point(698, 702);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 35);
+            this.button3.Size = new System.Drawing.Size(154, 54);
             this.button3.TabIndex = 6;
             this.button3.Text = "Usuń Osobę";
             this.toolTip1.SetToolTip(this.button3, "Usuwa zaznaczoną osobę z rejestru.");
@@ -156,9 +162,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(809, 518);
+            this.ClientSize = new System.Drawing.Size(1214, 797);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
@@ -166,6 +172,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Test";
             this.ResumeLayout(false);

@@ -47,7 +47,6 @@
             this.NameInput.Name = "NameInput";
             this.NameInput.Size = new System.Drawing.Size(217, 20);
             this.NameInput.TabIndex = 0;
-            this.NameInput.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
